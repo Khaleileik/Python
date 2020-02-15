@@ -9,7 +9,7 @@ keepPlaying = True
 
 while(keepPlaying == True):
     print("Welcome")
-    print("Type in rock, paper or scissors! First to 2 wins")
+    print("First to 2 wins. Press q to quit. Write in lower case!")
     #rock is 1, paper is 2, scissors is 3
     
     scoreComp = 0
