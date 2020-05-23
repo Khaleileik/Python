@@ -1,0 +1,42 @@
+Objective:
+This program will be a timer that counts down from a time inputed by the user
+
+Steps:
+-create code that asks for a time input for minutes and seconds
+-create code that dysplays an error message for values above 59 for minute and second inputs 
+-create code that asks to start counting
+-program will count time until zero
+-create code that can pause/play/clear timer (program should check every second if timerOn equals true)
+
+Psudocode:
+
+import library that can measure time
+
+promt user to type in time
+
+if values for minutes or seconds is greater than 59
+    print error message
+   
+
+else:
+
+create variable called timerOn and set to true
+
+while timerOn is true:
+    
+    create variable called showTimer and set to true
+    
+    while showTimer is true print statement that shows countdown each second 
+
+    if showTimer is false, timer will continue but will not be visible
+    
+    
+
+if timerOn is false, timer will stop and showTimer will be set to true
+
+
+
+
+
+
+
