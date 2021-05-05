@@ -1,3 +1,4 @@
+import time
 gameOn = True
 
 while(gameOn == True):
@@ -52,4 +53,4 @@ while(gameOn == True):
                         gameOn = False
   
 print("Wow, you really don't know Bill. Game Over")
-
+time.sleep(3)
