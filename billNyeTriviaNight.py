@@ -47,9 +47,12 @@ while(gameOn == True):
                     gameOn = False
                 else:
                     print(questions [4])
-                    print("")
+                    print("a. Science Rules")
+                    print("b. Bill Nye Wine Club")
+                    print("c. Barefoot")
+                    print("d. Rocket Science")
                     playerGuess = input("Your guess: ")
-                    if (playerGuess != "") and print(questions [4]):
+                    if (playerGuess != "Rocket Science") and print(questions [4]):
                         gameOn = False
   
 print("Wow, you really don't know Bill. Game Over")
